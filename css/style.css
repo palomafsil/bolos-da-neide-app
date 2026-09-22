@@ -1,0 +1,114 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    gap: 77%;
+}
+
+#introducao {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+#menu {
+    color: rgb(218, 79, 183);
+    display: flex;
+    padding: 20px;
+    gap: 60px;
+}
+
+#bolos {
+    color: rgb(250, 128, 223);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+#logo-neide {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#sabor {
+    width: 100%;
+}
+
+
+#bolos img {
+    width: 300px;
+}
+
+#header-right {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}   
+
+#inicio {
+    background-color: rgb(250, 128, 223);
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    padding: 50px;
+    line-height: 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inicio img{
+    width: 200px;
+    height: auto;
+}
+
+#inicio h2 {
+    font-size: 50px;
+}
+
+#inicio h1 {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+#inicio p {
+    color: rgb(0, 0, 0);
+}
+
+#bolos h2 {
+    font-size: 45px;
+}
+
+.cards {
+    background-color: rgb(250, 128, 223);
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 10px;
+    height: 470px;
+}
+
+.cards h3 {
+    font-size: 35px;
+}
+
+.cards img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
